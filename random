@@ -1,0 +1,11 @@
+import random
+
+# Generate a list of 5 random numbers between 1 and 10
+random_numbers = [random.randint(1, 10) for _ in range(5)]
+
+# Print the generated list
+print("Generated random numbers:", random_numbers)
+
+# Calculate and print the sum of the random numbers
+sum_of_numbers = sum(random_numbers)
+print("Sum of the random numbers:", sum_of_numbers)
